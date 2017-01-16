@@ -11,8 +11,6 @@ This library creates a client that interfaces with both Storj and IPFS peers in 
 
 Bridge upgrades:
 
-Storj implements a client interface to their network via a centralized service known as bridge.
-
 1. http requests to centraly run ipfs nodes to find providers files within the client library changes to bridge.
 
 2. light implementation of js-ipfs, take only the required modules needed to make findProv requests to ipfs nodes in the case of getting file pointers, or broadcasting to the network that you can provide if you are a farmer.
